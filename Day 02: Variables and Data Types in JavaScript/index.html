@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 02: Variables and Data Types in JavaScript</title>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <center>
+    <h1>Day 2 - JS</h1>
+
+  </center>
+
+  <div id="someId"></div>
+
+  <ul>
+    <b>Things to be remember to make variables</b>
+    <li>The name must have digits(o-9) or letters</li>
+    <li>The name can have $ and _.</li>
+    <li>The first character must not be a digit.</li>
+    <li>No Reserved Keywords</li>
+  </ul>
+
+
+  <h1> Variables: Variables are used to store data in JavaScript</h1>
+  <p> - var: Function-scoped, can be redeclared (not recommended)</p>
+  <p> - let: Block-scoped, can be reassigned</p>
+  <p> - const: Block-scoped, **cannot** be reassigned</p>
+
+
+
+  <h1> - **Primitive Data Types: **</h1>
+  <p>- 'String' - Text values (* "Hello"')</p>
+  <p>- 'Number' - Numeric values ('25", '3.14')</p>
+  <p>- 'Boolean' - True/False ('true', 'false')</p>
+  <p>- 'Undefined - A variable declared but not assigned ('let x;')</p>
+  <p>- 'Null' - Represents "nothing" ('let y = null;')</p>
+  <p>- 'BigInt' - Large numbers ('BigInt (12345678901234567890) *)</p>
+  <p>'Symbol' - Unique identifiers (Symbol ("id") ')</p>
+  <p>- **Non-Primitive (Reference) Data Types: **</p>
+  <p>- 'Object' - Collection of key-value pairs</p>
+  <p>- 'Array' - Ordered list of values</p>
+  <p>- 'Function' - Code that can be executed</p>
+
+
+
+  <script>
+    let fruits = "apple"
+    let vegetables = "peas"
+    console.log(fruits)
+    console.log(vegetables)
+
+    fruits = vegetables
+    console.log(fruits)
+    console.log(vegetables)
+
+  </script>
+
+</body>
+
+</html>
